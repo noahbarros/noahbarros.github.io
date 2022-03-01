@@ -8,8 +8,21 @@
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
     
     <style>
+        @font-face {
+            font-family: 'Trash Hand';
+            src: url(Fontes/TrashHand.TTF) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Source Code Pro';
+            src: url(Fontes/SourceCodePro.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
         body {
-            font-family: 'Source Code Pro', monospace;
+            font-family: 'TrashHand', monospace;
+            font-size: 50px;
             background-color: #0647d8;
             color: white;
             text-align: center;
@@ -20,10 +33,11 @@
             margin: auto;
         }
         img {
-            padding-top: 30px;
+            padding-top: 10px;
             padding-bottom: 30px;
         }
         footer {
+            font-family: 'Source Code Pro', monospace;
             font-size: 10px;
         }
     </style>
@@ -31,12 +45,14 @@
 </head>
 <body>
 
-    <main>
-        <img src="Imagens/timeline.jpg" alt="Timeline">
-    </main>
+    <h1>Sobre mim</h1>
+
+    <div>
+        <img src="Imagens/timeline.png" alt="Timeline">
+    </div>
 
     <footer>
-        <p><i>© Produzido por Noah Barros</i></p>
+        <p>© Produzido por Noah Barros</p>
     </footer>
     
 </body>
